@@ -1,0 +1,44 @@
+.banner {
+  padding: 48px 56px 64px;
+  display: flex;
+  height: 640px;
+  flex-direction: column;
+  background-image: url("../assets/images/back_null_percents.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (max-width: 480px) {
+    padding: 24px;
+    background-position: center;
+  }
+
+  h1 {
+    font-size: 66px;
+    font-weight: 200;
+    margin-top: auto;
+    margin-bottom: 20px;
+    line-height: 110%;
+    letter-spacing: 0.18px;
+    color: #FFFFFF;
+
+    @media (max-width: 480px) {
+      font-size: 40px;
+      line-height: 120%;
+      width: 100%;
+    }
+  }
+
+  h4 {
+    font-size: 30px;
+    font-weight: 200;
+    color: #9B9B9B;
+    line-height: 134%;
+    letter-spacing: 0.1px;
+    margin-bottom: 36px;
+
+    @media (max-width: 480px) {
+      font-size: 24px;
+      color: #D2D2D2;
+    }
+  }
+}

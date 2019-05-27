@@ -1,0 +1,25 @@
+$yellow: #FFCF00;
+
+.link-button-sample {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 304px;
+  height: 72px;
+  background-color: $yellow;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 0 26px 0 32px;
+  font-family: Circe, sans-serif;
+
+  > svg {
+    color: #000000;
+    width: 24px;
+    height: 24px;
+    transform: rotate(-90deg);
+  }
+}

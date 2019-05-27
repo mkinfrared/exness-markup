@@ -1,0 +1,31 @@
+@import "reset";
+@import "fonts";
+@import "mixins";
+@import "header";
+@import "banner";
+@import "info";
+@import "payment";
+@import "footer";
+
+html {
+  * {
+    box-sizing: border-box;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  background-color: #FFFFFF;
+
+  body {
+    margin: 0 auto;
+    max-width: 1280px;
+    width: 100%;
+    font-family: Circe;
+
+    .link-button{
+      @extend .link-button-sample;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@import "mixins";
+
+header {
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    height: 56px;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .lang-site {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 16px;
+    height: 24px;
+
+    @media (max-width: 480px) {
+      display: none;
+    }
+
+    > p {
+      color: #FFFFFF;
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    svg {
+      fill: #8E8E8D;
+      width: 24px;
+      height: 24px;
+
+      path {
+        fill: #8E8E8D;
+      }
+    }
+
+    a {
+      color: $yellow;
+      margin-left: 35px;
+    }
+  }
+}
